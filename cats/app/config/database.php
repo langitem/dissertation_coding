@@ -26,7 +26,10 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	/* 'default' => 'mysql', Commented out and changed to the following line as instructed
+	on page 36
+	*/
+	'default' => 'sqlite',
 
 	/*
 	|--------------------------------------------------------------------------
