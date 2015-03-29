@@ -1,0 +1,16 @@
+package com.caveofprogramming.spring.test;
+
+import org.springframework.context.support.AbstractApplicationContext;
+
+public class App {
+
+	public static void main(String[] args) {
+		
+		AbstractApplicationContext context;
+		
+		Person person = new Person();
+		person.speak();
+
+	}
+
+}
