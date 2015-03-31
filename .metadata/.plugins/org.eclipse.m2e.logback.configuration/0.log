@@ -822,3 +822,76 @@
 2015-03-29 16:32:38,208 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2015-03-29 16:32:38,218 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2015-03-29 16:32:38,219 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 22:34:57,629 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 22:34:57,642 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 22:34:57,650 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 22:34:57,651 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 22:34:57,725 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 22:34:57,726 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-30 22:34:57,727 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 22:34:57,730 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-30 22:38:30,939 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 22:38:30,947 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 22:38:30,955 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 22:38:30,956 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 22:38:31,031 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 22:38:31,032 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-30 22:38:31,034 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 22:38:31,034 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-30 22:42:44,535 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework:gs-serving-web-content:0.1.0 @ /Users/emanuellangit/Documents/uol/coding_practice/gs-serving-web-content-initial/pom.xml.
+2015-03-30 22:42:45,018 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gs-serving-web-content-initial/src/main/java
+2015-03-30 22:42:45,018 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gs-serving-web-content-initial/src/main/resources
+2015-03-30 22:42:45,023 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gs-serving-web-content-initial/src/main/resources
+2015-03-30 22:42:45,025 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gs-serving-web-content-initial/src/test/java
+2015-03-30 22:42:45,227 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2015-03-30 22:42:45,234 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-03-30 22:42:45,339 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework:gs-serving-web-content:0.1.0 @ /Users/emanuellangit/Documents/uol/coding_practice/gs-serving-web-content-initial/pom.xml.
+2015-03-30 22:42:45,638 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gs-serving-web-content-initial/src/main/java
+2015-03-30 22:42:45,638 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gs-serving-web-content-initial/src/main/resources
+2015-03-30 22:42:45,641 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gs-serving-web-content-initial/src/main/resources
+2015-03-30 22:42:45,643 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gs-serving-web-content-initial/src/test/java
+2015-03-30 22:42:45,813 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework:gs-serving-web-content:0.1.0 @ /Users/emanuellangit/Documents/uol/coding_practice/gs-serving-web-content-initial/pom.xml.
+2015-03-30 22:42:45,897 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-03-30 22:42:46,098 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework:gs-serving-web-content:0.1.0 @ /Users/emanuellangit/Documents/uol/coding_practice/gs-serving-web-content-complete/pom.xml.
+2015-03-30 22:42:46,325 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gs-serving-web-content-complete/src/main/java
+2015-03-30 22:42:46,325 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gs-serving-web-content-complete/src/main/resources
+2015-03-30 22:42:46,330 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gs-serving-web-content-complete/src/main/resources
+2015-03-30 22:42:46,333 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gs-serving-web-content-complete/src/test/java
+2015-03-30 22:42:46,437 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2015-03-30 22:42:46,438 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2015-03-30 22:42:46,522 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework:gs-serving-web-content:0.1.0 @ /Users/emanuellangit/Documents/uol/coding_practice/gs-serving-web-content-complete/pom.xml.
+2015-03-30 22:42:46,772 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gs-serving-web-content-complete/src/main/java
+2015-03-30 22:42:46,772 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gs-serving-web-content-complete/src/main/resources
+2015-03-30 22:42:46,774 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /gs-serving-web-content-complete/src/main/resources
+2015-03-30 22:42:46,776 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /gs-serving-web-content-complete/src/test/java
+2015-03-30 22:42:46,906 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.springframework:gs-serving-web-content:0.1.0 @ /Users/emanuellangit/Documents/uol/coding_practice/gs-serving-web-content-complete/pom.xml.
+2015-03-30 22:42:46,988 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2015-03-30 22:42:49,546 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-03-30 22:42:49,547 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-30 22:42:49,547 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 22:42:49,558 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-03-30 22:42:49,558 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/emanuellangit/Documents/uol/coding_practice/gs-serving-web-content-complete/src/test/resources
+2015-03-30 22:42:49,714 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-03-30 22:42:49,714 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-30 22:42:49,714 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 22:42:49,717 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-03-30 22:42:49,717 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/emanuellangit/Documents/uol/coding_practice/gs-serving-web-content-initial/src/test/resources
+2015-03-30 23:37:28,725 [Worker-4] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.TestSpringProject1:myapp:1.0.0-BUILD-SNAPSHOT @ /Users/emanuellangit/Documents/uol/coding_practice/TestSpringProject1/pom.xml.
+2015-03-30 23:37:29,278 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 23:37:29,281 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 23:37:29,286 [Worker-4] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 23:37:29,287 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 23:37:29,869 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.TestSpringProject1:myapp:1.0.0-BUILD-SNAPSHOT @ /Users/emanuellangit/Documents/uol/coding_practice/TestSpringProject1/pom.xml.
+2015-03-30 23:37:30,107 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 23:37:30,117 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 23:37:30,120 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 23:37:30,121 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-03-30 23:37:31,211 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 23:37:31,211 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-30 23:37:31,212 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-03-30 23:37:31,213 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-03-30 23:37:54,333 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-03-30 23:38:02,251 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/emanuellangit/Documents/uol/coding_practice/TestSpringProject1
+2015-03-30 23:38:02,252 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B 
+2015-03-30 23:39:46,462 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/emanuellangit/Documents/uol/coding_practice/TestSpringProject1
+2015-03-30 23:39:46,462 [Worker-21] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B test

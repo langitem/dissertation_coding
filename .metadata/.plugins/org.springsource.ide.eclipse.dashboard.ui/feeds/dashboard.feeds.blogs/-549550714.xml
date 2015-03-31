@@ -5,7 +5,69 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2015-03-26T18:37:00Z</updated>
+  <updated>2015-03-30T09:30:00Z</updated>
+  <entry>
+    <title>Looking ahead to Spring Roo 2.0</title>
+    <link rel="alternate" href="https://spring.io/blog/2015/03/30/looking-ahead-to-spring-roo-2-0" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2015-03-30:2046</id>
+    <updated>2015-03-30T09:30:00Z</updated>
+    <content type="html">&lt;p&gt;Original author: DISID Corporation&lt;/p&gt;
+&lt;p&gt;Dear Spring community, &lt;/p&gt;
+&lt;p&gt;The DISID Spring Roo team is busily working towards the 2.0 release. With Spring Roo 2.0 we would like recover the essence that defines the Roo project:&lt;/p&gt;
+&lt;ul&gt;&#xD;
+  &lt;li&gt;  Be a rapid application &lt;strong&gt;development tool&lt;/strong&gt;, Roo isn't either a framework nor Maven plugins.&lt;/li&gt;&#xD;
+  &lt;li&gt;  Intelligent code generation to provide &lt;strong&gt;improved productivity&lt;/strong&gt;.&#xD;
+&lt;ul&gt;&#xD;
+      &lt;li&gt; Developers often are forced to spend too much of their time doing things that add too little value, Spring Roo's code generation helps them stay focused.&lt;/li&gt;&#xD;
+    &lt;/ul&gt;&#xD;
+  &lt;/li&gt;&#xD;
+  &lt;li&gt;  Create applications based on the extensive set of &lt;strong&gt;Spring technologies&lt;/strong&gt;: Spring Boot, Spring Data, Spring MVC, Spring Security, etc.&lt;/li&gt;&#xD;
+  &lt;li&gt;  Generate applications based on &lt;strong&gt;best architecture practices&lt;/strong&gt; like: Service Layer, Repository Layer &lt;/li&gt;&#xD;
+  &lt;li&gt; New scaffolding model that generates a fully functional &lt;strong&gt;responsive UI&lt;/strong&gt; based on jQuery and Bootstrap. &lt;/li&gt;&#xD;
+  &lt;li&gt; Improve &lt;strong&gt;extensibility&lt;/strong&gt; and increase the &lt;strong&gt;collaboration&lt;/strong&gt; of the Spring Roo project:&#xD;
+    &lt;ul&gt;&#xD;
+      &lt;li&gt; We will create the “&lt;strong&gt;Roo Marketplace&lt;/strong&gt;”: the alternative to Roobot, easier to maintain and available for everyone, a place to find and keep track on third party addons and Roo Addon Suites. &lt;/li&gt;&#xD;
+      &lt;li&gt; A “&lt;strong&gt;Roo Addon Suite&lt;/strong&gt;” is a great way to package and distribute a set of add-ons together, for example if you want to distribute Roo custom distributions. Roo Addon Suite is based on OSGi R5 Subsystems that provides a really convenient deployment model, without compromising the modularity of Roo.&lt;/li&gt;&#xD;
+    &lt;/ul&gt;&#xD;
+  &lt;/li&gt;&#xD;
+&lt;/ul&gt;
+&lt;p&gt; The new Roo 2.0 is a beginning, in future versions we would like to design a new way to define the view layer components to get a true independence from view layer technologies letting the developers to try the technology that better adjust to their requirements: JSP, Thymeleaf, etc. without losing any benefit. &lt;/p&gt;
+&lt;p&gt;We have scheduled the work of the relase 2.0 in 3 main milestones: &lt;/p&gt;
+&lt;p&gt; &lt;strong&gt;Milestone 1&lt;/strong&gt;: Create a smaller and easier to maintain Spring Roo distribution. From 2.0, Roo will contain the runtime and the main addons only, so new versions could be released more frequently and being kept up to date with latest Spring projects: &lt;/p&gt;
+&lt;ul&gt;&#xD;
+  &lt;li&gt; Make a better separation between the Spring Roo runtime and the core addons. The Roo runtime APIs (classpath, metadata, support, etc.) must be kept as stable and backwards compatible as possible.&lt;/li&gt;&#xD;
+  &lt;li&gt;  Move the addons not classified as ”core addon” (GWT, JSF, ...) to their own projects to be maintained by Roo community. If your organization would like to contribute to Roo project by maintaining these addons please contact to: springroo@ disid.com&lt;/li&gt;&#xD;
+  &lt;li&gt;  Migrate current user guide from docbook to ASCIIdoc.&lt;/li&gt;&#xD;
+&lt;/ul&gt;
+&lt;p&gt;  &lt;strong&gt;Milestone 2&lt;/strong&gt;: Update code generation to use latest Spring technologies &lt;/p&gt;
+&lt;ul&gt;&#xD;
+  &lt;li&gt; Update code generation to use the latest Spring framework versions (4.x) &#xD;
+    &lt;ul&gt;&#xD;
+      &lt;li&gt; Move from Spring framework dependencies to Spring IO Platform&lt;/li&gt;&#xD;
+    &lt;/ul&gt;&#xD;
+  &lt;/li&gt;&#xD;
+  &lt;li&gt; User Managed POM (ROO-3465, ROO-3478) &lt;/li&gt;&#xD;
+  &lt;li&gt; Spring Profiles support &lt;/li&gt;&#xD;
+  &lt;li&gt; Annotation based configuration: &#xD;
+    &lt;ul&gt;&#xD;
+      &lt;li&gt; Move to class configuration in spite of XML configuration &lt;/li&gt;&#xD;
+      &lt;li&gt; Improve application maintanability by using Spring Boot annotations &lt;/li&gt;&#xD;
+    &lt;/ul&gt;&#xD;
+  &lt;/li&gt;&#xD;
+  &lt;li&gt; Remove Active Record data model in favor of the Repository (Spring Data) based one.&lt;/li&gt;&#xD;
+  &lt;li&gt; Generate application arquitecture based on service layer pattern by default &lt;/li&gt;&#xD;
+&lt;/ul&gt;
+&lt;p&gt; &lt;strong&gt;Milestone 3&lt;/strong&gt;: Move web layer to HTML5 &lt;/p&gt;
+&lt;ul&gt;&#xD;
+  &lt;li&gt; Responsive UI – View layer based on jQuery, Bootstrap and CSS3 &lt;/li&gt;&#xD;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Important&lt;/em&gt;: Roo 2.0 might contain API changes and less add-ons than previous version so this release probably won't be backward compatible with 1.3. You can see a more specific roadmap in the &lt;a href="https://jira.spring.io/browse/ROO/? selectedTab=com.atlassian.jira.jira-projects-plugin:roadmap-panel"&gt;SpringRoo JIRA&lt;/a&gt;: &lt;/p&gt;
+&lt;p&gt;As always, you’ll also find Roo on Twitter - either follow &lt;a href="https://www.twitter.com/springroo"&gt;@SpringRoo&lt;/a&gt; or just include #SpringRoo in your tweets. Stay tuned to Spring Roo news!&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring XD 1.1.1 Released</title>
     <link rel="alternate" href="https://spring.io/blog/2015/03/26/spring-xd-1-1-1-released" />
@@ -1103,27 +1165,6 @@ public class HelloController {&#xD;
 &lt;p&gt;Does your organization collect data? Lots of data? Does your organization make use of all that data they have collected? In this session you will learn what you do with machine learning, and what are the building blocks for an application that uses machine learning. This session will show you how to go from data you have collected to creating predictions for customers. You will learn how valuable insights into your data can be gleaned while building the code to make predictions.&lt;/p&gt;
 &lt;p&gt;&#xD;
   &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/cHPXn1aBs90" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
-&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>SpringOne2GX 2014 Replay: Apps + Data + Cloud: What Does It All Mean?</title>
-    <link rel="alternate" href="https://spring.io/blog/2015/03/17/springone2gx-2014-replay-apps-data-cloud-what-does-it-all-mean" />
-    <category term="news" label="News and Events" />
-    <author>
-      <name>Pieter Humphrey</name>
-    </author>
-    <id>tag:spring.io,2015-03-17:2024</id>
-    <updated>2015-03-17T22:16:00Z</updated>
-    <content type="html">&lt;p&gt;Recorded at SpringOne2GX 2014.&lt;/p&gt;
-&lt;p&gt;Speaker: Matt Stine&lt;/p&gt;
-&lt;p&gt; Developing for the Cloud Track &lt;/p&gt;
-&lt;p&gt;Slides: &lt;a href="http://www.slideshare.net/SpringCentral/apps-data-cloud-what-does-it-all-mean"&gt;http://www.slideshare.net/SpringCentral/apps-data-cloud-what-does-it-all-mean &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Big Data. Fast Data. NoSQL. NewSQL. We've experienced something of a renaissance in the storage and processing of data in the last decade of computing after years of &amp;quot;Relational Winter.&amp;quot; We're now entering into the next phase of this evolution: the convergence of data and the cloud. Much of this revolution has arrived on the coattails of data fabrics designed for horizontal scale-out on commodity hardware. Cloud platforms, especially PaaS platforms like Cloud Foundry, allow us to provision the requisite virtual hardware on-demand, removing the last mile of overhead in assembling scale-out data platforms. Coupling PaaS with microservice architectures and polyglot persistence allows developers to design systems utilizing stores uniquely designed for specific write, process, and query patterns. Leveraging the Lambda Architecture combination of real-time analytics platforms coupled with scale-out batch processing systems like Hadoop give us the ability to always ask questions of all of our data. In this talk will look at various Spring projects that allow us, coupled with Cloud Foundry, to uniquely position ourselves to take advantage of this convergence: Spring Boot: the opinionated framework for microservice development Spring Data: the access layer for SQL, NoSQL, NewSQL, and Hadoop Reactor: the foundation for reactive fast data applications on the JVM Spring XD: the platform for data ingest, real-time analytics, batch processing, and data export We'll tie all of these projects together in a suite of applications running on Cloud Foundry and Hadoop, closing the Apps/Data/Cloud loop.&lt;/p&gt;
-&lt;p&gt;Learn more about Cloud Foundry: &lt;a href="http://www.cloudfoundry.org"&gt;http://www.cloudfoundry.org&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Learn more about Spring XD: &lt;a href="http://projects.spring.io/spring-xd"&gt;http://projects.spring.io/spring-xd&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Learn more about Spring Data: &lt;a href="http://projects.spring.io/spring-data"&gt;http://projects.spring.io/spring-data&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&#xD;
-  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ObKGl0f5a7I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&#xD;
 &lt;/p&gt;</content>
   </entry>
 </feed>
