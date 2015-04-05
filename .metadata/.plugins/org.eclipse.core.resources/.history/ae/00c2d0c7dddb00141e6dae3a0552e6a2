@@ -1,0 +1,15 @@
+package com.emanuellangit.dissertation.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class SequenceInputFormController {
+	
+	@RequestMapping
+	public String sequenceInputForm(Model model) {
+		
+	}
+
+}

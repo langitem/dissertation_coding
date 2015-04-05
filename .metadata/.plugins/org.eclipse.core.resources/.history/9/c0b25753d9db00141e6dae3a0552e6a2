@@ -1,0 +1,8 @@
+package com.emanuellangit.dissertation.model;
+
+public class SequenceInformation {
+	
+	private String nucleotideSequence;
+	private String emailAddress;
+
+}

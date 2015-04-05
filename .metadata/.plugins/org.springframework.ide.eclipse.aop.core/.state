@@ -3,6 +3,7 @@
 <aop-project name="SpringMvcProjectTest"/>
 <aop-project name="SpringMvcFormTest"/>
 <aop-project name="gs-serving-web-content-complete"/>
+<aop-project name="SpringMvcImplementation"/>
 <aop-project name="spring-tutorial-5"/>
 <aop-project name="SpringMVCFormExample"/>
 <aop-project name="gs-serving-web-content-initial"/>
