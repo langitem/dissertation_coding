@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="TestSpringProject1"/>
-<aop-project name="FirstSprintMvcProject"/>
+<aop-project name="SpringMvcProjectTest"/>
+<aop-project name="SpringMvcFormTest"/>
 <aop-project name="gs-serving-web-content-complete"/>
-<aop-project name="demo"/>
 <aop-project name="spring-tutorial-5"/>
+<aop-project name="SpringMVCFormExample"/>
 <aop-project name="gs-serving-web-content-initial"/>
+<aop-project name="SpringMvcFormTutr"/>
 </aop-reference-model>

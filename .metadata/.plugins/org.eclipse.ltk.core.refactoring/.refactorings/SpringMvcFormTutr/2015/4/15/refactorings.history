@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;HomeController.java&apos; to &apos;SpringMvcFormTutr/src/main/java/com.emanuellangit.springmvcformtutr.controller&apos;&#x0A;- Original project: &apos;SpringMvcFormTutr&apos;&#x0A;- Destination element: &apos;SpringMvcFormTutr/src/main/java/com.emanuellangit.springmvcformtutr.controller&apos;&#x0A;- Original element: &apos;com.emanuellangit.springmvcformtutr.HomeController.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;com.emanuellangit.springmvcformtutr.controller" element1="/src\/main\/java&lt;com.emanuellangit.springmvcformtutr{HomeController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1428201063155" units="1" version="1.0"/>
+</session>
