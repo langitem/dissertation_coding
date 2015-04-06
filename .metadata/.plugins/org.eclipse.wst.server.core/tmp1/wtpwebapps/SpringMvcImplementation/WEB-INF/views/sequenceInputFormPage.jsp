@@ -8,5 +8,12 @@
 </head>
 <body>
 	<h1 align="center">Nucleotide BLAST</h1>
+	
+	<form:form action="sequenceInputForm" method="post">
+		<p>Enter your nucleotide sequence(s) in the box below in FASTA format:</p>
+		<textarea name="nucleotideSequence" cols="50" rows="10"></textarea>
+	
+	
+	</form:form>
 </body>
 </html>

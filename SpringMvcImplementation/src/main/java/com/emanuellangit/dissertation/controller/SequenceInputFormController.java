@@ -20,6 +20,7 @@ public class SequenceInputFormController {
 	@RequestMapping(value="sequenceInputForm", method=RequestMethod.POST)
 	public String sequenceSubmit(@ModelAttribute SequenceInformation sequenceInformation, Model model) {
 		model.addAttribute("sequenceInformation", sequenceInformation);
+
 		return "sequenceSubmittedPage";
 	}
 
