@@ -4,6 +4,7 @@ public class SequenceInformation {
 	
 	private String nucleotideSequence;
 	private String filename;
+	private String blastDb;
 	private String emailAddress;
 	private Float eValue;
 	
@@ -30,6 +31,12 @@ public class SequenceInformation {
 	}
 	public void seteValue(Float eValue) {
 		this.eValue = eValue;
+	}
+	public String getBlastDb() {
+		return blastDb;
+	}
+	public void setBlastDb(String blastDb) {
+		this.blastDb = blastDb;
 	}
 
 }

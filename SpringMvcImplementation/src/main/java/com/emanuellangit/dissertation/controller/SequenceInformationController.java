@@ -1,5 +1,8 @@
 package com.emanuellangit.dissertation.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -14,6 +17,8 @@ public class SequenceInformationController {
 	
 	@RequestMapping(method=RequestMethod.GET)
 	public String viewSequenceInputFormPage(Model model) {
+		//model.addAttribute("sequenceInformation", new SequenceInformation());
+		
 		model.addAttribute("sequenceInformation", new SequenceInformation());
 		return "sequenceInputFormPage";
 	}
@@ -25,5 +30,16 @@ public class SequenceInformationController {
 		
 		return "sequenceSubmittedPage";
 	}
+	
+	/*
+	private void initializeModelList(Model model) {
+		List<String> blastDbList = new ArrayList<String>();
+		blastDbList.add("Human Genome");
+		blastDbList.add("Human RefSeq NM");
+		blastDbList.add("Human RefSeq NR");
+		model.addAttribute("blastDb", blastDbList);
+		
+	}
+	*/
 
 }

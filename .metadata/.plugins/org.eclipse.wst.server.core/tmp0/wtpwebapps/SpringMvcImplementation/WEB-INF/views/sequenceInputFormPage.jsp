@@ -12,11 +12,26 @@
 	<form:form method="POST" modelAttribute="sequenceInformation">
 		<p>Enter your nucleotide sequence(s) in the box below in FASTA format:</p>
 		<form:textarea path="nucleotideSequence" rows="10" cols="50" />
-		<br><br>
+		<br>
 		
 		Or upload file:
 		<input type="file" name="filename">
 		<br><br>
+		
+		Select nucleotide database:
+		<form:select path="blastDb">
+			<form:option value="Human Genome"/>
+			<form:option value="Human RefSeq NM"/>
+			<form:option value="Human RefSeq NR"/>		
+		</form:select>
+		<br><br>
+		
+		Expect threshold:
+		<form:input path="eValue"/>
+		<br><br>
+		
+		Enter your email address:
+		<form:input path="emailAddress"/>
 		
 		<input type="submit" value="Submit">
 		
