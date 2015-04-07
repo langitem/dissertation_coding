@@ -1,0 +1,15 @@
+127.0.0.1 - - [07/Apr/2015:00:12:08 -0700] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [07/Apr/2015:00:12:09 -0700] "GET /dissertation/ HTTP/1.1" 200 163
+127.0.0.1 - - [07/Apr/2015:00:12:21 -0700] "GET /dissertation/sequenceInput HTTP/1.1" 200 1185
+127.0.0.1 - - [07/Apr/2015:00:19:33 -0700] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [07/Apr/2015:00:19:33 -0700] "GET /dissertation/ HTTP/1.1" 200 163
+127.0.0.1 - - [07/Apr/2015:00:19:40 -0700] "GET /dissertation/sequenceInput HTTP/1.1" 200 1152
+127.0.0.1 - - [07/Apr/2015:00:20:10 -0700] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [07/Apr/2015:00:20:10 -0700] "GET /dissertation/ HTTP/1.1" 200 163
+127.0.0.1 - - [07/Apr/2015:00:20:17 -0700] "GET /dissertation/sequenceInput HTTP/1.1" 200 1152
+127.0.0.1 - - [07/Apr/2015:00:21:15 -0700] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [07/Apr/2015:00:21:15 -0700] "GET /dissertation/ HTTP/1.1" 200 163
+127.0.0.1 - - [07/Apr/2015:00:21:20 -0700] "GET /dissertation/sequenceInput HTTP/1.1" 200 1148
+127.0.0.1 - - [07/Apr/2015:00:41:41 -0700] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [07/Apr/2015:00:41:41 -0700] "GET /dissertation/ HTTP/1.1" 200 163
+127.0.0.1 - - [07/Apr/2015:00:41:47 -0700] "GET /dissertation/sequenceInput HTTP/1.1" 200 1149

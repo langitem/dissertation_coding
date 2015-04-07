@@ -33,6 +33,7 @@
 		Enter your email address:
 		<form:input path="emailAddress"/>
 		
+		<br>	
 		<input type="submit" value="Submit">
 		
 	</form:form>
