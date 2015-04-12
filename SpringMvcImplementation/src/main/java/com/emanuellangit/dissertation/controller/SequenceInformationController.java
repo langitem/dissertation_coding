@@ -3,15 +3,8 @@ package com.emanuellangit.dissertation.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.Validator;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -22,15 +15,6 @@ import com.emanuellangit.dissertation.model.SequenceInformation;
 @RequestMapping(value="/sequenceInput")
 public class SequenceInformationController {
 	
-	@Autowired
-	@Qualifier("sequenceValidator")
-	private Validator validator;
-	
-	@InitBinder
-	private void initBinder(WebDataBinder binder) {
-		binder.setValidator(validator);
-	}
-	
 	@RequestMapping(method=RequestMethod.GET)
 	public String viewSequenceInputFormPage(Model model) {
 		//model.addAttribute("sequenceInformation", new SequenceInformation());
@@ -40,17 +24,11 @@ public class SequenceInformationController {
 	}
 	
 	@RequestMapping(method=RequestMethod.POST)
-	public String submitSequenceInformation(Model model, @Validated SequenceInformation sequenceInformation, BindingResult result ) {
+	public String submitSequenceInformation(@ModelAttribute SequenceInformation sequenceInformation, Model model ) {
 		
-		String returnValue = "sequenceSubmittedPage";
+		model.addAttribute("sequenceInformation", sequenceInformation);
 		
-		if (result.hasErrors()) {
-			returnValue = "sequenceInputFormPage";
-		} else {
-			model.addAttribute("sequenceInformation", sequenceInformation);
-		}
-		
-		return returnValue;
+		return "sequenceSubmittedPage";
 	}
 	
 	/*
@@ -64,4 +42,4 @@ public class SequenceInformationController {
 	}
 	*/
 
-} // End of SequenceInformationController class
+}
