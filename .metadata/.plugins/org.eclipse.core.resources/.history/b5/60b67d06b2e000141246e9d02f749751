@@ -1,0 +1,5 @@
+package com.emanuellangit.dissertation.validator;
+
+public class SequenceValidator implements Validator {
+
+}

@@ -9,20 +9,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="spring-web" key="selection"/>
+		<item value="SequenceInformationController" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="spring-web"/>
-			<item value="uri"/>
-			<item value="apache"/>
-			<item value="tomcat"/>
-			<item value="servlet"/>
-			<item value="springmvc"/>
+			<item value="sequenceInformationController"/>
+			<item value="sequenceInput"/>
+			<item value="name="/>
+			<item value="javax.valid"/>
 			<item value="valid"/>
+			<item value="validation"/>
 			<item value="javax"/>
+			<item value="auto"/>
 		</list>
 		<list key="replacehistory">
 		</list>

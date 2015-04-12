@@ -8,8 +8,15 @@
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
-<fullyQualifiedTypeName name="com.emanuellangit.dissertation.model.SequenceInformation"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ModelAttribute"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.emanuellangit.dissertation.model.SequenceInformation"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+<fullyQualifiedTypeName name="org.springframework.validation.Validator"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.InitBinder"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.WebDataBinder"/>
+<fullyQualifiedTypeName name="org.springframework.validation.annotation.Validated"/>
+<fullyQualifiedTypeName name="org.springframework.validation.BindingResult"/>
 </qualifiedTypeNameHistroy>

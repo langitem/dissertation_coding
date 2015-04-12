@@ -32,6 +32,7 @@
 		
 		Enter your email address:
 		<form:input path="emailAddress"/>
+		<form:errors path="emailAddress" cssStyle="color: #ff0000;"/>
 		
 		<br>	
 		<input type="submit" value="Submit">

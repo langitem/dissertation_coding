@@ -1,6 +1,0 @@
-package com.spring.springmvcformexample;
-import java.util.Date;
-
-public class User {
-
-}
