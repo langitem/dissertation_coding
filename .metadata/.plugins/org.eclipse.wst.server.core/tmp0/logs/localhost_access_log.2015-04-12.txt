@@ -1,0 +1,9 @@
+127.0.0.1 - - [12/Apr/2015:01:45:37 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [12/Apr/2015:01:45:38 -0700] "GET /dissertation/ HTTP/1.1" 200 163
+0:0:0:0:0:0:0:1 - - [12/Apr/2015:01:45:43 -0700] "GET /dissertation/sequenceInput HTTP/1.1" 200 1193
+0:0:0:0:0:0:0:1 - - [12/Apr/2015:01:45:46 -0700] "POST /dissertation/sequenceInput;jsessionid=870F99DB91DCE279EA5292AAD5491A62 HTTP/1.1" 200 321
+127.0.0.1 - - [12/Apr/2015:16:57:14 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [12/Apr/2015:16:57:14 -0700] "GET /dissertation/ HTTP/1.1" 200 163
+127.0.0.1 - - [12/Apr/2015:17:12:35 -0700] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [12/Apr/2015:17:12:36 -0700] "GET /dissertation/ HTTP/1.1" 200 1180
+0:0:0:0:0:0:0:1 - - [12/Apr/2015:17:12:42 -0700] "POST /dissertation/;jsessionid=78108F2FCC5DC6CB66E3C374DB02AAD1 HTTP/1.1" 200 321

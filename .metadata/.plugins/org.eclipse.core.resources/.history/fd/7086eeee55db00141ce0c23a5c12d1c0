@@ -1,6 +1,0 @@
-package com.emanuellangit.springmvcformtest.controller;
-
-@Controller
-public class TestFormController {
-
-}
