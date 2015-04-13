@@ -5007,3 +5007,86 @@ java.net.UnknownHostException: spring.io: unknown error
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-13 01:26:09.348
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-13 01:33:57.373
+!MESSAGE No valid Android XML Editor Delegate found for file /SpringMvcImplementation/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-13 01:34:08.802
+!MESSAGE No valid Android XML Editor Delegate found for file /SpringMvcImplementation/src/main/webapp/WEB-INF/spring/root-context.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-13 01:34:49.461
+!MESSAGE No valid Android XML Editor Delegate found for file /SpringMvcImplementation/src/main/webapp/WEB-INF/spring/root-context.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-13 01:36:04.434
+!MESSAGE No valid Android XML Editor Delegate found for file /SpringMvcImplementation/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-13 01:43:20.399
+!MESSAGE No valid Android XML Editor Delegate found for file /SpringMvcImplementation/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-13 01:52:16.866
+!MESSAGE No valid Android XML Editor Delegate found for file /SpringMvcImplementation/src/main/webapp/WEB-INF/spring/root-context.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-13 01:56:25.938
+!MESSAGE No valid Android XML Editor Delegate found for file /SpringMvcImplementation/src/main/webapp/WEB-INF/web.xml [Res null, type null]
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-04-13 03:16:30.304
+!MESSAGE Connection to http://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com: unknown error. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2015-04-13 03:16:30.305
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io: unknown error. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1255)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1171)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1105)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:131)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1077)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1068)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1064)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.android.ide.eclipse.adt 1 0 2015-04-13 11:19:20.469
+!MESSAGE No valid Android XML Editor Delegate found for file /SpringMvcImplementation/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml [Res null, type null]
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2015-04-13 11:32:02.758
+!MESSAGE No projects found for [/Users/emanuellangit/Documents/uol/coding_practice/SpringMvcImplementation/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-13 11:32:02.871
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2015-04-13 11:32:02.873
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
