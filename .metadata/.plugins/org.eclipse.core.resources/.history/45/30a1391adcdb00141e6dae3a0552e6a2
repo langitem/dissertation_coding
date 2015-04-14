@@ -1,6 +1,0 @@
-package com.emanuellangit.dissertation.controller;
-
-@Controller
-public class SequenceInputFormController {
-
-}
