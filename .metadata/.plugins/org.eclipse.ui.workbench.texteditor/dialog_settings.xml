@@ -15,14 +15,14 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="util"/>
-			<item value="beans&gt;"/>
-			<item value="id"/>
-			<item value="exception"/>
-			<item value="scan"/>
-			<item value="jsp"/>
-			<item value="handl"/>
-			<item value="view"/>
+			<item value="welcome"/>
+			<item value="context"/>
+			<item value="url"/>
+			<item value="/"/>
+			<item value="mail"/>
+			<item value="javab"/>
+			<item value="java"/>
+			<item value="spring.version"/>
 		</list>
 		<list key="replacehistory">
 		</list>
