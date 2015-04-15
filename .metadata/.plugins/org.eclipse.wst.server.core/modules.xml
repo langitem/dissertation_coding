@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <modules>
+  <module moduleId="org.eclipse.jst.j2ee.server:dissertation" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:TestSpringProject1" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SpringMvcFormTutr" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:Temp1" serverId="Tomcat v8.0 Server at localhost"/>
@@ -10,4 +11,5 @@
   <module moduleId="org.eclipse.jst.jee.server:Deployment" serverId="Tomcat v8.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SpringMVCFormExample" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SpringMvcImplementation" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:springexample" serverId="Tomcat v7.0 Server at localhost"/>
 </modules>

@@ -62,6 +62,9 @@
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
 	</section>
+	<section name="BuildPathsPropertyPage">
+		<item value="3" key="pageIndex"/>
+	</section>
 	<section name="completion_proposal_size">
 		<item value="246" key="size.y"/>
 		<item value="575" key="size.x"/>

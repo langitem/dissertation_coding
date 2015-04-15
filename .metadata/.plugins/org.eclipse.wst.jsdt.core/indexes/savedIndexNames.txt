@@ -1,15 +1,8 @@
 INDEX VERSION 1.3+/Users/emanuellangit/Documents/uol/coding_practice/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-387756662.index
-1097823508.index
-701837420.index
 958854373.index
-2004009324.index
-2341573530.index
 1028100100.index
 2135630692.index
-2517770271.index
+2341573530.index
 4218152342.index
-3628872099.index
-1423490365.index
-3184554064.index
-1710020071.index
+701837420.index
+1097823508.index

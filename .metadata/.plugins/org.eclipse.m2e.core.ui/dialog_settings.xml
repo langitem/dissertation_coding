@@ -38,8 +38,8 @@
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="643" key="width"/>
-		<item value="714" key="x"/>
-		<item value="451" key="y"/>
+		<item value="1281" key="x"/>
+		<item value="456" key="y"/>
 		<item value="771" key="height"/>
 	</section>
 	<section name="MavenProjectImportWizardPage">
@@ -66,11 +66,15 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="emanuellangit"/>
+			<item value="SpringMvcImplement2"/>
 			<item value="CrunchifySpringMVCTutorial"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="dissertation"/>
+			<item value="SpringMvcImplement2"/>
 			<item value="CrunchifySpringMVCTutorial"/>
 		</list>
 		<list key="version">
@@ -95,6 +99,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/emanuellangit/Documents/uol/coding_practice"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -106,10 +111,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.javacodegeeks.snippets.enterprise.springexample"/>
 		</list>
 		<list key="groupId">
+			<item value="com.javacodegeeks.snippets.enterprise"/>
 		</list>
 		<list key="artifactId">
+			<item value="springexample"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -123,7 +131,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
-		<item value="977" key="width"/>
+		<item value="1145" key="width"/>
 		<item value="805" key="x"/>
 		<item value="383" key="y"/>
 		<item value="450" key="height"/>
