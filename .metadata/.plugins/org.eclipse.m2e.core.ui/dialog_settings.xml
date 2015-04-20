@@ -66,6 +66,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="SpringMvcImplementation2"/>
 			<item value="emanuellangit"/>
 			<item value="SpringMvcImplement2"/>
 			<item value="CrunchifySpringMVCTutorial"/>
@@ -73,6 +74,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="SpringMvcImplementation2"/>
+			<item value="example1"/>
 			<item value="dissertation"/>
 			<item value="SpringMvcImplement2"/>
 			<item value="CrunchifySpringMVCTutorial"/>
@@ -111,13 +114,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.javacodegeeks.snippets.enterprise.springexample"/>
 		</list>
 		<list key="groupId">
-			<item value="com.javacodegeeks.snippets.enterprise"/>
 		</list>
 		<list key="artifactId">
-			<item value="springexample"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

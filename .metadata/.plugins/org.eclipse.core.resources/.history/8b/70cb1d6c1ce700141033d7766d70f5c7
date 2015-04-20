@@ -1,0 +1,16 @@
+
+public class SequenceInformation {
+	
+	private String nucleotideSequence;
+	private String filename;
+	private String blastDb;
+	private String emailAddress;
+	private Float eValue;
+	public String getNucleotideSequence() {
+		return nucleotideSequence;
+	}
+	public void setNucleotideSequence(String nucleotideSequence) {
+		this.nucleotideSequence = nucleotideSequence;
+	}
+
+}
