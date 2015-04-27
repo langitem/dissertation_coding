@@ -14,5 +14,6 @@
   <module moduleId="org.eclipse.jst.jee.server:SpringMvcFormTest" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SpringMvcProjectTest" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SpringMVCFormExample" serverId="Tomcat v7.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:SpringMvcImplementation3" serverId="Tomcat v7.0 Server at localhost"/>
   <module moduleId="org.eclipse.jst.jee.server:SpringMvcImplementation2" serverId="Tomcat v7.0 Server at localhost"/>
 </modules>

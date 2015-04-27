@@ -1,0 +1,14 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ page session="false" %>
+<html>
+<head>
+	<title>Nucleotide BLAST</title>
+</head>
+<body>
+	<h1 align="center">Nucleotide BLAST</h1>
+	<form:form method="POST">
+	
+	</form:form>
+
+</body>
+</html>

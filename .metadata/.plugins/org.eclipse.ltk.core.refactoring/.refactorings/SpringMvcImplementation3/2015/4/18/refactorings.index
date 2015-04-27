@@ -1,0 +1,5 @@
+1430108370868	Encapsulate field 'nucleotideSequence'
+1430108380161	Encapsulate field 'filename'
+1430108387418	Encapsulate field 'blastDb'
+1430108394140	Encapsulate field 'emailAddress'
+1430108403033	Encapsulate field 'eValue'
