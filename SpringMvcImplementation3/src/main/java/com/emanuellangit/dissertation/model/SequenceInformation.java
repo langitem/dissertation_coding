@@ -1,9 +1,15 @@
 package com.emanuellangit.dissertation.model;
 
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotEmpty;
+
 public class SequenceInformation {
 	private String nucleotideSequence;
 	private String filename;
 	private String blastDb;
+	
+	@NotEmpty(message = "Please enter your email address")
+	@Email(message = "Please enter a valid email address")
 	private String emailAddress;
 	private Float eValue;
 	

@@ -3,6 +3,11 @@
 <html>
 <head>
 	<title>Nucleotide BLAST</title>
+	<style>
+		.error {
+			color: red; font-weight: bold;
+		}
+	</style>
 </head>
 <body>
 	<h1 align="center">Nucleotide BLAST</h1>
@@ -29,6 +34,7 @@
 		
 		Enter your email address:
 		<form:input path="emailAddress"/>
+		<form:errors path="emailAddress" cssClass="error"/>
 		
 		<br>
 		<input type="submit" value="Submit"/>
