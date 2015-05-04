@@ -30,6 +30,7 @@
 		
 		Expect threshold:
 		<form:input path="eValue"/>
+		<form:errors path="eValue" cssClass="error"/>
 		<br><br>
 		
 		Enter your email address:
