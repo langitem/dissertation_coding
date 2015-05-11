@@ -38,8 +38,8 @@
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="643" key="width"/>
-		<item value="1650" key="x"/>
-		<item value="455" key="y"/>
+		<item value="994" key="x"/>
+		<item value="456" key="y"/>
 		<item value="771" key="height"/>
 	</section>
 	<section name="MavenProjectImportWizardPage">
@@ -134,6 +134,6 @@
 		<item value="1145" key="width"/>
 		<item value="805" key="x"/>
 		<item value="383" key="y"/>
-		<item value="450" key="height"/>
+		<item value="468" key="height"/>
 	</section>
 </section>
