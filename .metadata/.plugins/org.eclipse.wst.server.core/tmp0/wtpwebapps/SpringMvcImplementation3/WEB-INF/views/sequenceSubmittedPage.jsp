@@ -12,10 +12,10 @@
 	<p>nucleotide sequence</p>
 	<p>${nucleotideSequence}</p>
 	
-	<p>filename:</p>
+	<p>file:</p>
 	<p>${filename}</p>
 	
-	<p>blastdb:</p>
+	<p>blastDB:</p>
 	<p>${blastDb}</p>
 	
 	<p>E value:</p>

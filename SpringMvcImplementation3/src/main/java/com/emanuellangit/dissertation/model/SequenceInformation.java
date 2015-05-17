@@ -6,10 +6,11 @@ import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.web.multipart.MultipartFile;
 
 public class SequenceInformation {
 	private String nucleotideSequence;
-	private String filename;
+	private MultipartFile file;
 	private String blastDb;
 	
 	@NotEmpty(message = "Please enter your email address")
@@ -28,11 +29,11 @@ public class SequenceInformation {
 	public void setNucleotideSequence(String nucleotideSequence) {
 		this.nucleotideSequence = nucleotideSequence;
 	}
-	public String getFilename() {
-		return filename;
+	public MultipartFile getFilename() {
+		return file;
 	}
-	public void setFilename(String filename) {
-		this.filename = filename;
+	public void setFilename(MultipartFile file) {
+		this.file = file;
 	}
 	public String getBlastDb() {
 		return blastDb;
