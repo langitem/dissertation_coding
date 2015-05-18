@@ -12,8 +12,8 @@
 	<p>nucleotide sequence</p>
 	<p>${nucleotideSequence}</p>
 	
-	<p>file:</p>
-	<p>${filename}</p>
+	<p>server file:</p>
+	<p>${serverFilename}</p>
 	
 	<p>blastDB:</p>
 	<p>${blastDb}</p>

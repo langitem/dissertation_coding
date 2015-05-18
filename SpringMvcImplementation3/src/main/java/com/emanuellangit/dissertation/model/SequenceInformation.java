@@ -12,6 +12,7 @@ public class SequenceInformation {
 	private String nucleotideSequence;
 	private MultipartFile file;
 	private String blastDb;
+	private String serverFilename;
 	
 	@NotEmpty(message = "Please enter your email address")
 	@Email(message = "Please enter a valid email address")
@@ -52,6 +53,12 @@ public class SequenceInformation {
 	}
 	public void seteValue(Double eValue) {
 		this.eValue = eValue;
+	}
+	public String getServerFilename() {
+		return serverFilename;
+	}
+	public void setServerFilename(String serverFilename) {
+		this.serverFilename = serverFilename;
 	}
 
 }

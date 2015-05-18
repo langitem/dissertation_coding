@@ -7,6 +7,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.UUID;
 
 import javax.validation.Valid;
 
@@ -49,16 +50,13 @@ public class HomeController {
 		return "home"; // filename of view (.jsp file) to be displayed
 	}
 	
+	@SuppressWarnings("resource")
 	@RequestMapping(method = RequestMethod.POST)
 	public String submitSequenceInformation(@Valid SequenceInformation sequenceInformation, BindingResult result, ModelMap model, @RequestParam(value = "file", required = false) MultipartFile file ) {
 	//public String submitSequenceInformation(@Valid SequenceInformation sequenceInformation, BindingResult result, ModelMap model) {
 		if (result.hasErrors()) {
 			return "home";
 		}
-		
-		//just testing, remove this later:
-		String filename = file.getOriginalFilename();
-		System.out.println("filename: " + filename);
 		
 		model.addAttribute("nucleotideSequence", sequenceInformation.getNucleotideSequence());
 		model.addAttribute("file", sequenceInformation.getFilename());
@@ -67,11 +65,44 @@ public class HomeController {
 		model.addAttribute("emailAddress", sequenceInformation.getEmailAddress());
 		
 		// just testing, remove this later:
+		/*
 		MultipartFile file2 = sequenceInformation.getFilename();
 		String filename2 = file2.toString();
 		System.out.println(filename2);
+		*/
+		
+		UUID uniqueId = UUID.randomUUID();
 		
 		// Save file to server if uploaded:
+		InputStream inputStream = null;
+		OutputStream outputStream = null;
+		String filename = file.getOriginalFilename();
+		if (filename.isEmpty()) {
+			System.out.println("No filename!"); // remove this later
+			sequenceInformation.setServerFilename(null);
+		} else {
+			//System.out.println("original filename: " + filename); //remove this later
+			String serverFilename = "/Users/emanuellangit/Documents/uploaded_files_dir/" + uniqueId;
+			sequenceInformation.setServerFilename(serverFilename);
+			//model.addAttribute("serverFilename", sequenceInformation.getServerFilename());
+
+			File newFile = new File(serverFilename);
+			try {
+				inputStream = file.getInputStream();
+				outputStream = new FileOutputStream(newFile);
+				int read = 0;
+				byte[] bytes = new byte[1024];
+
+				while ((read = inputStream.read(bytes)) != -1) {
+					outputStream.write(bytes, 0, read);
+				}
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
+		model.addAttribute("serverFilename", sequenceInformation.getServerFilename());
 		
 		
 		String toAddress = sequenceInformation.getEmailAddress();
