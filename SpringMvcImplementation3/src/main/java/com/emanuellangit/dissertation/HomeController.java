@@ -11,6 +11,9 @@ import java.util.UUID;
 
 import javax.validation.Valid;
 
+import org.codehaus.jackson.JsonGenerationException;
+import org.codehaus.jackson.map.JsonMappingException;
+import org.codehaus.jackson.map.ObjectMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -64,27 +67,20 @@ public class HomeController {
 		model.addAttribute("eValue", sequenceInformation.geteValue());
 		model.addAttribute("emailAddress", sequenceInformation.getEmailAddress());
 		
-		// just testing, remove this later:
-		/*
-		MultipartFile file2 = sequenceInformation.getFilename();
-		String filename2 = file2.toString();
-		System.out.println(filename2);
-		*/
-		
-		UUID uniqueId = UUID.randomUUID();
-		
 		// Save file to server if uploaded:
+		UUID uniqueId = UUID.randomUUID(); // used for naming JSON and renaming uploaded file on server
+		
 		InputStream inputStream = null;
 		OutputStream outputStream = null;
 		String filename = file.getOriginalFilename();
-		if (filename.isEmpty()) {
-			System.out.println("No filename!"); // remove this later
+		
+		if (filename.isEmpty()) { // if no file was uploaded
+			System.out.println("No filename"); // remove this later
 			sequenceInformation.setServerFilename(null);
 		} else {
 			//System.out.println("original filename: " + filename); //remove this later
 			String serverFilename = "/Users/emanuellangit/Documents/uploaded_files_dir/" + uniqueId;
 			sequenceInformation.setServerFilename(serverFilename);
-			//model.addAttribute("serverFilename", sequenceInformation.getServerFilename());
 
 			File newFile = new File(serverFilename);
 			try {
@@ -104,7 +100,22 @@ public class HomeController {
 		
 		model.addAttribute("serverFilename", sequenceInformation.getServerFilename());
 		
+		// convert object to JSON and save to server:
+		ObjectMapper mapper = new ObjectMapper();
+		try {
+			mapper.writeValue(new File("/Users/emanuellangit/Documents/json_files_dir/" + uniqueId + ".json"), sequenceInformation);
+		} catch (JsonGenerationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (JsonMappingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
+		// Section to send email confirmation
 		String toAddress = sequenceInformation.getEmailAddress();
 		// creates a simple e-mail object
 		SimpleMailMessage email = new SimpleMailMessage();
