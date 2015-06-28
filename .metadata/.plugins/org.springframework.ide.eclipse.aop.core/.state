@@ -2,6 +2,7 @@
 <aop-reference-model>
 <aop-project name="SpringMvcProjectTest"/>
 <aop-project name="SpringMvcFormTest"/>
+<aop-project name="HelloWorld"/>
 <aop-project name="SpringMvcImplementation"/>
 <aop-project name="gs-serving-web-content-complete"/>
 <aop-project name="spring-tutorial-5"/>

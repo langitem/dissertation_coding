@@ -1,16 +1,12 @@
 package com.emanuellangit.dissertation;
 
-import java.io.BufferedOutputStream;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.UUID;
-
 import javax.validation.Valid;
-
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
@@ -25,12 +21,12 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import com.emanuellangit.dissertation.model.SequenceInformation;
 
 /**
  * Handles requests for the application home page.
  */
+
 @Controller
 @RequestMapping(value="/")
 public class HomeController {
@@ -56,7 +52,7 @@ public class HomeController {
 	@SuppressWarnings("resource")
 	@RequestMapping(method = RequestMethod.POST)
 	public String submitSequenceInformation(@Valid SequenceInformation sequenceInformation, BindingResult result, ModelMap model, @RequestParam(value = "file", required = false) MultipartFile file ) {
-	//public String submitSequenceInformation(@Valid SequenceInformation sequenceInformation, BindingResult result, ModelMap model) {
+
 		if (result.hasErrors()) {
 			return "home";
 		}
@@ -78,7 +74,6 @@ public class HomeController {
 			System.out.println("No filename"); // remove this later
 			sequenceInformation.setServerFilename(null);
 		} else {
-			//System.out.println("original filename: " + filename); //remove this later
 			String serverFilename = "/Users/emanuellangit/Documents/uploaded_files_dir/" + uniqueId;
 			sequenceInformation.setServerFilename(serverFilename);
 
