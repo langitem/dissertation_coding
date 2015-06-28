@@ -121,6 +121,7 @@ public class HomeController {
 		mailSender.send(email);
 
 		return "sequenceSubmittedPage";
-	}
+		
+	} // end of submitSequenceInformation method
 	
 }

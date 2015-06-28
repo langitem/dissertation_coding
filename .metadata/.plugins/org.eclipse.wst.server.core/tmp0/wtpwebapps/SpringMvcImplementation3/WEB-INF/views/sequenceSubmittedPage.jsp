@@ -8,21 +8,5 @@
 </head>
 <body>
 	<p>Your job has been submitted! A confirmation email will be sent to you.</p>
-	
-	<p>nucleotide sequence</p>
-	<p>${nucleotideSequence}</p>
-	
-	<p>server file:</p>
-	<p>${serverFilename}</p>
-	
-	<p>blastDB:</p>
-	<p>${blastDb}</p>
-	
-	<p>E value:</p>
-	<p>${eValue}</p>
-	
-	<p>Email Address:</p>
-	<p>${emailAddress}</p>
-
 </body>
 </html>
